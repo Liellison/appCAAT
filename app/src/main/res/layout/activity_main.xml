@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.liellison.caat.caatapi16.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noticias"
+        android:id="@+id/buttonNot"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="118dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Denuncia"
+        android:id="@+id/buttonDen"
+        android:layout_below="@+id/buttonNot"
+        android:layout_alignLeft="@+id/buttonNot"
+        android:layout_alignStart="@+id/buttonNot" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quem somos"
+        android:id="@+id/buttonQuem"
+        android:layout_below="@+id/buttonDen"
+        android:layout_alignLeft="@+id/buttonDen"
+        android:layout_alignStart="@+id/buttonDen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendario"
+        android:id="@+id/buttonCalendario"
+        android:layout_below="@+id/buttonQuem"
+        android:layout_alignLeft="@+id/buttonQuem"
+        android:layout_alignStart="@+id/buttonQuem" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media"
+        android:id="@+id/buttonMedia"
+        android:layout_below="@+id/buttonCalendario"
+        android:layout_alignLeft="@+id/buttonCalendario"
+        android:layout_alignStart="@+id/buttonCalendario" />
+
+</RelativeLayout>
