@@ -65,62 +65,94 @@
     </array>
     <array name="optativasPeriodo">
         <item>Optativas</item>
-        <item>Materia</item>
-        <item>Materia1</item>
-        <item>Materia2</item>
-        <item>Materia3</item>
-        <item>Materia4</item>
-        <item>Materia5</item>
-        <item>Materia6</item>
-        <item>Materia7</item>
-        <item>Materia8</item>
-        <item>Materia9</item>
-        <item>Materia10</item>
-        <item>Materia11</item>
-        <item>Materia12</item>
-        <item>Materia13</item>
-        <item>Materia14</item>
-        <item>Materia15</item>
-        <item>Materia16</item>
-        <item>Materia17</item>
-        <item>Materia18</item>
-        <item>Materia19</item>
-        <item>Materia20</item>
-        <item>Materia21</item>
-        <item>Materia22</item>
-        <item>Materia23</item>
-        <item>Materia24</item>
-        <item>Materia25</item>
-        <item>Materia26</item>
-        <item>Materia27</item>
-        <item>Materia28</item>
-        <item>Materia29</item>
-        <item>Materia30</item>
-        <item>Materia31</item>
-        <item>Materia32</item>
-        <item>Materia33</item>
-        <item>Materia34</item>
-        <item>Materia35</item>
-        <item>Materia36</item>
-        <item>Materia37</item>
-        <item>Materia38</item>
-        <item>Materia39</item>
-        <item>Materia40</item>
-        <item>Materia41</item>
-        <item>Materia42</item>
-        <item>Materia43</item>
-        <item>Materia44</item>
-        <item>Materia45</item>
-        <item>Materia46</item>
-        <item>Materia47</item>
-        <item>Materia48</item>
-        <item>Materia49</item>
-        <item>Materia50</item>
-        <item>Materia51</item>
-        <item>Materia52</item>
-        <item>Materia53</item>
-        <item>Materia54</item>
-        <item>Materia55</item>
-        <item>Materia56</item>
+        <item>-- Redes de computadores, Sistemas distribuídos --</item>
+        <item>- 5° Periodo -</item>
+        <item>Computação Móvel</item>
+        <item>- 6° Periodo -</item>
+        <item>Administração de Sistemas de Rede</item>
+        <item>Projeto de Redes de Computadores</item>
+        <item>Segurança de Redes</item>
+        <item>- 7° Periodo -</item>
+        <item>Tópicos Especiais em Redes de Computadores I</item>
+        <item>Tópicos Especiais em Sistemas Distribuídos I</item>
+        <item>Criptografia para Segurança de Dados</item>
+        <item>- 8° Periodo -</item>
+        <item>Tópicos Especiais em Redes de Computadores II</item>
+        <item>Tópicos Especiais em Sistemas Distribuídos II</item>
+        <item> </item>
+        <item>-- Programação de computadores --</item>
+        <item>- 5° Periodo -</item>
+        <item>Maratona de Programação</item>
+        <item>Desafios de Programação</item>
+        <item>Prática de Programação I</item>
+        <item>Complexidade de Algoritmos</item>
+        <item>Algoritmos Algébricos</item>
+        <item>- 6° Periodo -</item>
+        <item>Programação para Dispositivos Móveis</item>
+        <item>Prática de Programação II</item>
+        <item>Armazenamento e Recuperação de Informação</item>
+        <item>Desenvolvimento para Web</item>
+        <item>Projeto de Compiladores I</item>
+        <item>Pesquisa Operacional</item>
+        <item>- 7° Periodo -</item>
+        <item>Projeto de Compiladores II</item>
+        <item>Programação Extrema</item>
+        <item>Programação Não-Linear</item>
+        <item> </item>
+        <item>-- IA, Robótica, Neurociência, CG --</item>
+        <item>- 5° Periodo -</item>
+        <item>Automação</item>
+        <item>- 6° Periodo -</item>
+        <item>Aprendizagem de Máquina</item>
+        <item>Biologia Computacional</item>
+        <item>Introdução à Teoria dos Jogos</item>
+        <item>Sistemas Multiagentes</item>
+        <item>Tópicos Especiais em Inteligência Computacional I</item>
+        <item>Tópicos Especiais em Otimização I</item>
+        <item>Prática de Programação para Robótica I</item>
+        <item>Tópicos Especiais em Robótica I</item>
+        <item>- 7° Periodo -</item>
+        <item>Processamento Digital de Imagens</item>
+        <item>Redes Neurais</item>
+        <item>Introdução ao Desenvolvimento de Jogos</item>
+        <item>Tópicos Especiais em Inteligência Computacional II</item>
+        <item>Tópicos Especiais em Otimização II</item>
+        <item>Prática de Programação para Robótica II</item>
+        <item>Tópicos Especiais em Robótica II</item>
+        <item>Tópicos Especiais em Visão Computacional I</item>
+        <item>- 8° Periodo -</item>
+        <item>Reconhecimento de Padrões</item>
+        <item>Tópicos Especiais em Imagens Digitais</item>
+        <item>Tópicos Especiais em Visão Computacional II</item>
+        <item> </item>
+        <item>-- Engenharia de software --</item>
+        <item>- 5° Periodo -</item>
+        <item>Ambiente de Desenvolvimento de Sistemas</item>
+        <item>Computadores e Sociedade</item>
+        <item>Educação à Distância</item>
+        <item>Engenharia de Requisitos</item>
+        <item>Interação Homem-Computador</item>
+        <item>- 6° Periodo -</item>
+        <item>Sistemas de Informação</item>
+        <item>Sistemas de Middleware</item>
+        <item>Sistemas Multimídia</item>
+        <item>Sistemas Tolerantes a Falhas</item>
+        <item> </item>
+        <item>-- Arquitetura de computadores --</item>
+        <item>- 5° Periodo -</item>
+        <item>Arquitetura Avançada de Computadores</item>
+        <item>Tópicos Especiais em Arquitetura de Computadores I</item>
+        <item>Software Básico</item>
+        <item>- 6° Periodo -</item>
+        <item>Arquitetura de Software</item>
+        <item>Tópicos Especiais em Arquitetura de Computadores II</item>
+        <item>Sistemas Embarcados</item>
+        <item>Sistemas de Tempo Real</item>
+        <item>- 7° Periodo -</item>
+        <item>Tópicos Especiais em Arquitetura de Computadores III</item>
+        <item>Tópicos Especiais em Sistemas Embarcados I</item>
+        <item>- 8° Periodo -</item>
+        <item>Tópicos Especiais em Arquitetura de Computadores IV</item>
+        <item>Tópicos Especiais em Sistemas Embarcados II</item>
     </array>
 </resources>
