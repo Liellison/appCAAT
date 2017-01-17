@@ -1,3 +1,126 @@
 <resources>
     <string name="app_name">CAATapi16</string>
+
+    <!-- String dos arrays-->
+    <array name="primeiroPeriodo">
+        <item>1° Periodo</item>
+        <item> Direito e Ética	</item>
+        <item> Filosofia das Ciências Naturais	</item>
+        <item> Introdução à Programação de Computadores	</item>
+        <item> Lógica Matemática Aplicada a Computação	</item>
+        <item> Matemática Fundamental	</item>
+        <item> Produção Textual	</item>
+    </array>
+
+    <array name="segundoPeriodo">
+        <item>2° Periodo</item>
+        <item>Cálculo</item>
+        <item> Circuitos Digitais	</item>
+        <item> Estrutura de Dados	</item>
+        <item> Geometria Analítica	</item>
+        <item> Metodologia Para o Trabalho Científico	</item>
+        <item> Paradigmas de Programação	</item>
+    </array>
+    <array name="terceiroPeriodo">
+        <item>3° Periodo</item>
+        <item> Álgebra Linear	</item>
+        <item> Eletricidade e Magnetismo	</item>
+        <item> Engenharia de Software	</item>
+        <item> Estruturas Auto-ajustáveis e Grafos	</item>
+        <item> Linguagem Formais e Autômatos	</item>
+        <item> Sistemas Digitais	</item>
+    </array>
+    <array name="quartoPeriodo">
+        <item>4° Periodo</item>
+        <item> Análise de Sistemas	</item>
+        <item> Arquitetura de Computadores	</item>
+        <item> Banco de Dados	</item>
+        <item> Cálculo Numérico Computacional	</item>
+        <item> Compiladores	</item>
+        <item> Probabilidade e Estatística	</item>
+        <item> Transmissão de Dados	</item>
+    </array>
+    <array name="quintoPeriodo">
+        <item>5° Periodo</item>
+        <item> Inteligência Artificial	</item>
+        <item> Métodos Formais	</item>
+        <item> Redes de Computadores	</item>
+        <item> Sistemas Operacionais	</item>
+    </array>
+    <array name="sextoPeriodo">
+        <item>6° Periodo</item>
+        <item> Computação Gráfica	</item>
+        <item> Programação Paralela	</item>
+        <item> Projeto de Graduação	</item>
+        <item> Sistemas Distribuídos	</item>
+        <item> Teoria Geral de Administração e Empreendedorismo	</item>
+    </array>
+    <array name="setimoPeriodo">
+        <item>7° Periodo</item>
+        <item> Projeto de Trabalho de Conclusão de Curso	</item>
+    </array>
+    <array name="oitavoPeriodo">
+        <item>8° Periodo</item>
+        <item> Trabalho de Conclusão de Curso	</item>
+    </array>
+    <array name="optativasPeriodo">
+        <item>Optativas</item>
+        <item>Materia</item>
+        <item>Materia1</item>
+        <item>Materia2</item>
+        <item>Materia3</item>
+        <item>Materia4</item>
+        <item>Materia5</item>
+        <item>Materia6</item>
+        <item>Materia7</item>
+        <item>Materia8</item>
+        <item>Materia9</item>
+        <item>Materia10</item>
+        <item>Materia11</item>
+        <item>Materia12</item>
+        <item>Materia13</item>
+        <item>Materia14</item>
+        <item>Materia15</item>
+        <item>Materia16</item>
+        <item>Materia17</item>
+        <item>Materia18</item>
+        <item>Materia19</item>
+        <item>Materia20</item>
+        <item>Materia21</item>
+        <item>Materia22</item>
+        <item>Materia23</item>
+        <item>Materia24</item>
+        <item>Materia25</item>
+        <item>Materia26</item>
+        <item>Materia27</item>
+        <item>Materia28</item>
+        <item>Materia29</item>
+        <item>Materia30</item>
+        <item>Materia31</item>
+        <item>Materia32</item>
+        <item>Materia33</item>
+        <item>Materia34</item>
+        <item>Materia35</item>
+        <item>Materia36</item>
+        <item>Materia37</item>
+        <item>Materia38</item>
+        <item>Materia39</item>
+        <item>Materia40</item>
+        <item>Materia41</item>
+        <item>Materia42</item>
+        <item>Materia43</item>
+        <item>Materia44</item>
+        <item>Materia45</item>
+        <item>Materia46</item>
+        <item>Materia47</item>
+        <item>Materia48</item>
+        <item>Materia49</item>
+        <item>Materia50</item>
+        <item>Materia51</item>
+        <item>Materia52</item>
+        <item>Materia53</item>
+        <item>Materia54</item>
+        <item>Materia55</item>
+        <item>Materia56</item>
+    </array>
 </resources>

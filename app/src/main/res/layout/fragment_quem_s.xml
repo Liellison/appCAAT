@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".QuemSActivity">
+    tools:context=".fragments.QuemSFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/include_toolbar"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,8 +16,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Centro Academico"
         android:id="@+id/tituloQuemS"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="16dp"/>
 
     <ImageButton
         android:layout_width="wrap_content"
