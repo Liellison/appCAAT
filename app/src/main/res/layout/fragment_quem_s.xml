@@ -20,52 +20,11 @@
         android:layout_below="@+id/toolbar"
         android:layout_marginTop="16dp"/>
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButtonAllyson"
-        android:src="@drawable/a_small"
-        android:layout_marginBottom="130dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButtonLiellison"
-        android:src="@drawable/l_small"
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="21dp"
         android:layout_below="@+id/tituloQuemS"
-        android:layout_toLeftOf="@+id/imageButtonGirlene"
-        android:layout_toStartOf="@+id/imageButtonGirlene"
-        android:layout_marginTop="42dp" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButtonGirlene"
-        android:src="@drawable/g_small"
-        android:layout_alignTop="@+id/imageButtonLiellison"
-        android:layout_alignRight="@+id/imageButtonClaudia"
-        android:layout_alignEnd="@+id/imageButtonClaudia"
-        android:layout_marginRight="44dp"
-        android:layout_marginEnd="44dp" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButtonClaudia"
-        android:layout_alignTop="@+id/imageButtonAllyson"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:src="@drawable/c_small" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButtonJP"
-        android:src="@drawable/j_small"
-        android:layout_alignTop="@+id/imageButtonAllyson"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/lvExp"/>
 
 </RelativeLayout>
