@@ -23,11 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AllysonActivity" />
-        <activity android:name=".LiellisonActivity" />
-        <activity android:name=".GirleneActivity" />
-        <activity android:name=".ClaudiaActivity" />
-        <activity android:name=".JPActivity" />
         <activity android:name=".Media90" />
         <activity android:name=".Media30" />
 

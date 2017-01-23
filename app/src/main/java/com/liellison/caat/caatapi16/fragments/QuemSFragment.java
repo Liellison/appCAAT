@@ -1,6 +1,5 @@
 package com.liellison.caat.caatapi16.fragments;
 
-import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,14 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.liellison.caat.caatapi16.AllysonActivity;
-import com.liellison.caat.caatapi16.ClaudiaActivity;
-import com.liellison.caat.caatapi16.GirleneActivity;
-import com.liellison.caat.caatapi16.JPActivity;
-import com.liellison.caat.caatapi16.LiellisonActivity;
 import com.liellison.caat.caatapi16.R;
 import com.liellison.caat.caatapi16.adapter.ExpandableListAdapter;
 

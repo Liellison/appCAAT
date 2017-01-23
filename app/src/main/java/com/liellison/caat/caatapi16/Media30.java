@@ -33,13 +33,17 @@ public class Media30 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        if (nota230.getText().toString().equals(null)) {
+        String notaSe = nota230.getText().toString();
+        if (!notaSe.equals("")) {
             n1 = Double.parseDouble(nota130.getText().toString());
             n2 = Double.parseDouble(nota230.getText().toString());
             resultado = ((n1 * 4) + (n2 * 5)) / 9;
-            text30.setText("Sua media ficou " + String.valueOf(resultado));
-        }
-        if (!nota230.getText().toString().equals(null)){
+            if (resultado < 7){
+                text30.setText("Voce reprovou,tua nota foi "+String.valueOf(resultado));
+            }else {
+                text30.setText("Tua nota foi "+String.valueOf(resultado));
+            }
+        }else {
             n1 = Double.parseDouble(nota130.getText().toString());
             resultado = ((n1 * 4)-63) / -5;
             text30.setText("Voce precisa tirar "+String.valueOf(resultado)+" na segunda prova para passar");

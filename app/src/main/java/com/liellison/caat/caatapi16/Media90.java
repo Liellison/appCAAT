@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.Objects;
 
 /**
  * Created by liellison on 16/01/17.
@@ -48,17 +51,24 @@ public class Media90 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        if (nota3.getText().toString().equals(null)) {
-            n1 = Double.parseDouble(nota1.getText().toString());
-            n2 = Double.parseDouble(nota2.getText().toString());
-            n3 = Double.parseDouble(nota3.getText().toString());
-            resultado = ((n1 * 4) + (n2 * 5) + (n3 * 6)) / 15;
-            text90.setText(String.valueOf(resultado));
-        }else if (!nota3.getText().toString().equals(null)){
+        String notad3 = nota3.getText().toString();
+        System.out.println("NOta 3"+ notad3);
+
+        if (notad3.equals("")) {
             n1 = Double.parseDouble(nota1.getText().toString());
             n2 = Double.parseDouble(nota2.getText().toString());
             resultado = (((n1 * 4) + (n2 * 5))-105)/-6;
             text90.setText("Voce precisa tirar " + String.valueOf(resultado)+" na 3° prova");
+        } else {
+            n1 = Double.parseDouble(nota1.getText().toString());
+            n2 = Double.parseDouble(nota2.getText().toString());
+            n3 = Double.parseDouble(nota3.getText().toString());
+            resultado = ((n1 * 4) + (n2 * 5) + (n3 * 6)) / 15;
+            if (resultado < 7){
+            text90.setText("Voce reprovou,tua nota foi "+String.valueOf(resultado));
+            }else {
+                text90.setText("Tua nota foi "+String.valueOf(resultado));
+            }
         }
 
     }
