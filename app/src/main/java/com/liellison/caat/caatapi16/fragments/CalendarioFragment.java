@@ -1,6 +1,5 @@
 package com.liellison.caat.caatapi16.fragments;
 
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,27 +8,25 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CalendarView;
-import android.widget.Toast;
+import android.webkit.WebView;
 
 import com.liellison.caat.caatapi16.R;
 
 public class CalendarioFragment extends Fragment {
     public CalendarioFragment(){}
 
-    CalendarView calendar;
+    WebView calendar;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_calendario, container, false);
 
-        calendar = (CalendarView) view.findViewById(R.id.calendar);
-        calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                Toast.makeText(getActivity(), dayOfMonth + "/" + month + "/" + year, Toast.LENGTH_LONG).show();
-            }
-        });
+        calendar = (WebView) view.findViewById(R.id.calendar);
+        calendar.getSettings().setJavaScriptEnabled(true);
+        calendar.addJavascriptInterface(new WebAppInterface(this),"Android");
+        String calendarURL = "https://calendar.google.com/calendar/embed?src=momf1tt6gcmnj3k9je9rt06hcg%40group.calendar.google.com&ctz=America/Fortaleza";
+        calendar.loadUrl(calendarURL);
+
         setupToolbar(view);
         return view;
     }
@@ -44,6 +41,12 @@ public class CalendarioFragment extends Fragment {
         if (bar != null)
         {
             bar.setTitle(activity.getString(R.string.app_name));
+        }
+    }
+    public class WebAppInterface{
+        CalendarioFragment context;
+        WebAppInterface(CalendarioFragment c){
+            context = c;
         }
     }
 }

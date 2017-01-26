@@ -80,16 +80,16 @@ public class NoticiasFragment extends Fragment {
                 .client(client.build())
                 .build();
         final RssAPI rssAPI = retrofit.create(RssAPI.class);
-        Call<List<rss.Channel>> call = rssAPI.getRSS();
-        call.enqueue(new Callback<List<rss.Channel>>() {
+        Call<rss.Channel> call = rssAPI.getRSS();
+        call.enqueue(new Callback<rss.Channel>() {
             @Override
-            public void onResponse(Call<List<rss.Channel>> call, retrofit2.Response<List<rss.Channel>> response) {
+            public void onResponse(Call<rss.Channel> call, retrofit2.Response<rss.Channel> response) {
 
                 System.out.println("Deu certo");
             }
 
             @Override
-            public void onFailure(Call<List<rss.Channel>> call, Throwable t) {
+            public void onFailure(Call<rss.Channel> call, Throwable t) {
                 System.out.println("Fudeu: "+t);
             }
         });

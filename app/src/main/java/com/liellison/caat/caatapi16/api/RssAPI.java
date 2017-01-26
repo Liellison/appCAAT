@@ -13,5 +13,5 @@ import retrofit2.http.GET;
 
 public interface RssAPI {
     @GET("rss.asp")
-    Call <List<rss.Channel>> getRSS();
+    Call <rss.Channel> getRSS();
 }
