@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">CAATapi16</string>
+    <!-- Buttons -->
+    <string name="calc90">Calcular 90h/60h</string>
+    <string name="calc30">Calcular 30h</string>
 
     <!-- String dos arrays-->
     <array name="primeiroPeriodo">

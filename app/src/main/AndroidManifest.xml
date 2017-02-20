@@ -16,15 +16,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Media90" />
-        <activity android:name=".Media30" />
+        <activity android:name=".activity.Media90" />
+        <activity android:name=".activity.Media30" />
 
     </application>
 

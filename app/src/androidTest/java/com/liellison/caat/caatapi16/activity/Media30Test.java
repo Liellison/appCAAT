@@ -1,4 +1,4 @@
-package com.liellison.caat.caatapi16;
+package com.liellison.caat.caatapi16.activity;
 
 
 import android.support.test.espresso.ViewInteraction;
@@ -8,6 +8,8 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
+
+import com.liellison.caat.caatapi16.R;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
@@ -41,7 +43,7 @@ public class Media30Test {
         appCompatTextView.perform(click());
 
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.buttonMediaCalc60), withText("Calcular 60h")));
+                allOf(withId(R.id.buttonMediaCalc60), withText("Calcular 30h")));
         appCompatButton.perform(scrollTo(), click());
 
         ViewInteraction appCompatEditText = onView(
@@ -57,14 +59,14 @@ public class Media30Test {
         appCompatButton2.perform(click());
 
         ViewInteraction textView = onView(
-                allOf(withId(R.id.text30), withText("Voce precisa tirar 7.0 na segunda prova para passar"),
+                allOf(withId(R.id.text30), withText("Tua nota foi 7.0"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(android.R.id.content),
                                         0),
                                 4),
                         isDisplayed()));
-        textView.check(matches(withText("Voce precisa tirar 7.0 na segunda prova para passar")));
+        textView.check(matches(withText("Tua nota foi 7.0")));
 
     }
 

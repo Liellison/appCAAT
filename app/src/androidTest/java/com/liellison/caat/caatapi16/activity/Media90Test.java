@@ -1,4 +1,4 @@
-package com.liellison.caat.caatapi16;
+package com.liellison.caat.caatapi16.activity;
 
 
 import android.support.test.espresso.ViewInteraction;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 
+import com.liellison.caat.caatapi16.R;
+
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
@@ -17,9 +19,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.*;
-import static android.support.test.espresso.assertion.ViewAssertions.*;
-import static android.support.test.espresso.matcher.ViewMatchers.*;
+import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static android.support.test.espresso.action.ViewActions.replaceText;
+import static android.support.test.espresso.action.ViewActions.scrollTo;
+import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
 @LargeTest
@@ -36,38 +43,34 @@ public class Media90Test {
         appCompatTextView.perform(click());
 
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.buttonMediaCalc90), withText("Calcular 90h")));
+                allOf(withId(R.id.buttonMediaCalc90), withText("Calcular 90h/60h")));
         appCompatButton.perform(scrollTo(), click());
 
         ViewInteraction appCompatEditText = onView(
                 allOf(withId(R.id.nota1), isDisplayed()));
-        appCompatEditText.perform(click());
+        appCompatEditText.perform(replaceText("7"), closeSoftKeyboard());
 
         ViewInteraction appCompatEditText2 = onView(
-                allOf(withId(R.id.nota1), isDisplayed()));
+                allOf(withId(R.id.nota2), isDisplayed()));
         appCompatEditText2.perform(replaceText("7"), closeSoftKeyboard());
 
         ViewInteraction appCompatEditText3 = onView(
-                allOf(withId(R.id.nota2), isDisplayed()));
-        appCompatEditText3.perform(replaceText("7"), closeSoftKeyboard());
-
-        ViewInteraction appCompatEditText4 = onView(
                 allOf(withId(R.id.nota3), isDisplayed()));
-        appCompatEditText4.perform(replaceText("7"), closeSoftKeyboard());
+        appCompatEditText3.perform(replaceText("7"), closeSoftKeyboard());
 
         ViewInteraction appCompatButton2 = onView(
                 allOf(withId(R.id.btCalc90), withText("Calcular"), isDisplayed()));
         appCompatButton2.perform(click());
 
         ViewInteraction textView = onView(
-                allOf(withId(R.id.text90), withText("Voce precisa tirar 7.0 na 3° prova"),
+                allOf(withId(R.id.text90), withText("Tua nota foi 7.0"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(android.R.id.content),
                                         0),
                                 5),
                         isDisplayed()));
-        textView.check(matches(withText("Voce precisa tirar 7.0 na 3° prova")));
+        textView.check(matches(withText("Tua nota foi 7.0")));
 
     }
 

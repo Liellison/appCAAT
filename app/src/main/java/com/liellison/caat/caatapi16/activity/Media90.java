@@ -1,16 +1,14 @@
-package com.liellison.caat.caatapi16;
+package com.liellison.caat.caatapi16.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.Objects;
+import com.liellison.caat.caatapi16.R;
 
 /**
  * Created by liellison on 16/01/17.

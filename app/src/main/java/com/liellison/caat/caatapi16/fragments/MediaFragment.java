@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.liellison.caat.caatapi16.Media30;
-import com.liellison.caat.caatapi16.Media90;
+import com.liellison.caat.caatapi16.activity.Media30;
+import com.liellison.caat.caatapi16.activity.Media90;
 import com.liellison.caat.caatapi16.R;
 
 public class MediaFragment extends Fragment implements View.OnClickListener{

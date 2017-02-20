@@ -1,4 +1,4 @@
-package com.liellison.caat.caatapi16;
+package com.liellison.caat.caatapi16.activity;
 
 import android.content.Context;
 import android.support.design.widget.TabLayout;
@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.liellison.caat.caatapi16.R;
 import com.liellison.caat.caatapi16.fragments.CalendarioFragment;
 import com.liellison.caat.caatapi16.fragments.DenunciaFragment;
 import com.liellison.caat.caatapi16.fragments.MediaFragment;
