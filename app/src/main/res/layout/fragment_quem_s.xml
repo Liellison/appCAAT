@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Centro Academico"
+        android:text="@string/caat"
         android:id="@+id/tituloQuemS"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/toolbar"

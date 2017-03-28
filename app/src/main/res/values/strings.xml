@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">CAATapi16</string>
+    <string name="app_name">CAAT App</string>
+    <string name="caat">Centro Academico</string>
     <!-- Buttons -->
     <string name="calc90">Calcular 90h/60h</string>
     <string name="calc30">Calcular 30h</string>
