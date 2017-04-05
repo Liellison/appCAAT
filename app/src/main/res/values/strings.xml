@@ -8,64 +8,64 @@
     <!-- String dos arrays-->
     <array name="primeiroPeriodo">
         <item>1° Periodo</item>
-        <item> Direito e Ética	</item>
-        <item> Filosofia das Ciências Naturais	</item>
-        <item> Introdução à Programação de Computadores	</item>
-        <item> Lógica Matemática Aplicada a Computação	</item>
-        <item> Matemática Fundamental	</item>
-        <item> Produção Textual	</item>
+        <item>Direito e Ética</item>
+        <item>Filosofia das Ciências Naturais</item>
+        <item>Introdução à Programação de Computadores</item>
+        <item>Lógica Matemática Aplicada a Computação</item>
+        <item>Matemática Fundamental</item>
+        <item>Produção Textual</item>
     </array>
 
     <array name="segundoPeriodo">
         <item>2° Periodo</item>
         <item>Cálculo</item>
-        <item> Circuitos Digitais	</item>
-        <item> Estrutura de Dados	</item>
-        <item> Geometria Analítica	</item>
-        <item> Metodologia Para o Trabalho Científico	</item>
-        <item> Paradigmas de Programação	</item>
+        <item>Circuitos Digitais</item>
+        <item>Estrutura de Dados</item>
+        <item>Geometria Analítica</item>
+        <item>Metodologia Para o Trabalho Científico</item>
+        <item>Paradigmas de Programação</item>
     </array>
     <array name="terceiroPeriodo">
         <item>3° Periodo</item>
-        <item> Álgebra Linear	</item>
-        <item> Eletricidade e Magnetismo	</item>
-        <item> Engenharia de Software	</item>
-        <item> Estruturas Auto-ajustáveis e Grafos	</item>
-        <item> Linguagem Formais e Autômatos	</item>
-        <item> Sistemas Digitais	</item>
+        <item>Álgebra Linear</item>
+        <item>Eletricidade e Magnetismo</item>
+        <item>Engenharia de Software</item>
+        <item>Estruturas Auto-ajustáveis e Grafos</item>
+        <item>Linguagem Formais e Autômatos</item>
+        <item>Sistemas Digitais</item>
     </array>
     <array name="quartoPeriodo">
         <item>4° Periodo</item>
-        <item> Análise de Sistemas	</item>
-        <item> Arquitetura de Computadores	</item>
-        <item> Banco de Dados	</item>
-        <item> Cálculo Numérico Computacional	</item>
-        <item> Compiladores	</item>
-        <item> Probabilidade e Estatística	</item>
-        <item> Transmissão de Dados	</item>
+        <item>Análise de Sistemas</item>
+        <item>Arquitetura de Computadores</item>
+        <item>Banco de Dados</item>
+        <item>Cálculo Numérico Computacional</item>
+        <item>Compiladores</item>
+        <item>Probabilidade e Estatística</item>
+        <item>Transmissão de Dados</item>
     </array>
     <array name="quintoPeriodo">
         <item>5° Periodo</item>
-        <item> Inteligência Artificial	</item>
-        <item> Métodos Formais	</item>
-        <item> Redes de Computadores	</item>
-        <item> Sistemas Operacionais	</item>
+        <item>Inteligência Artificial</item>
+        <item>Métodos Formais</item>
+        <item>Redes de Computadores</item>
+        <item>Sistemas Operacionais</item>
     </array>
     <array name="sextoPeriodo">
         <item>6° Periodo</item>
-        <item> Computação Gráfica	</item>
-        <item> Programação Paralela	</item>
-        <item> Projeto de Graduação	</item>
-        <item> Sistemas Distribuídos	</item>
-        <item> Teoria Geral de Administração e Empreendedorismo	</item>
+        <item>Computação Gráfica</item>
+        <item>Programação Paralela</item>
+        <item>Projeto de Graduação</item>
+        <item>Sistemas Distribuídos</item>
+        <item>Teoria Geral de Administração e Empreendedorismo</item>
     </array>
     <array name="setimoPeriodo">
         <item>7° Periodo</item>
-        <item> Projeto de Trabalho de Conclusão de Curso	</item>
+        <item>Projeto de Trabalho de Conclusão de Curso</item>
     </array>
     <array name="oitavoPeriodo">
         <item>8° Periodo</item>
-        <item> Trabalho de Conclusão de Curso	</item>
+        <item>Trabalho de Conclusão de Curso</item>
     </array>
     <array name="optativasPeriodo">
         <item>Optativas</item>
@@ -83,7 +83,7 @@
         <item>- 8° Periodo -</item>
         <item>Tópicos Especiais em Redes de Computadores II</item>
         <item>Tópicos Especiais em Sistemas Distribuídos II</item>
-        <item> </item>
+        <item></item>
         <item>-- Programação de computadores --</item>
         <item>- 5° Periodo -</item>
         <item>Maratona de Programação</item>
@@ -102,7 +102,7 @@
         <item>Projeto de Compiladores II</item>
         <item>Programação Extrema</item>
         <item>Programação Não-Linear</item>
-        <item> </item>
+        <item></item>
         <item>-- IA, Robótica, Neurociência, CG --</item>
         <item>- 5° Periodo -</item>
         <item>Automação</item>
@@ -128,7 +128,7 @@
         <item>Reconhecimento de Padrões</item>
         <item>Tópicos Especiais em Imagens Digitais</item>
         <item>Tópicos Especiais em Visão Computacional II</item>
-        <item> </item>
+        <item></item>
         <item>-- Engenharia de software --</item>
         <item>- 5° Periodo -</item>
         <item>Ambiente de Desenvolvimento de Sistemas</item>
@@ -141,7 +141,7 @@
         <item>Sistemas de Middleware</item>
         <item>Sistemas Multimídia</item>
         <item>Sistemas Tolerantes a Falhas</item>
-        <item> </item>
+        <item></item>
         <item>-- Arquitetura de computadores --</item>
         <item>- 5° Periodo -</item>
         <item>Arquitetura Avançada de Computadores</item>
@@ -158,6 +158,6 @@
         <item>- 8° Periodo -</item>
         <item>Tópicos Especiais em Arquitetura de Computadores IV</item>
         <item>Tópicos Especiais em Sistemas Embarcados II</item>
-        <item> </item>
+        <item></item>
     </array>
 </resources>
