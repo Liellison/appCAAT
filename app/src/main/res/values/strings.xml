@@ -4,6 +4,10 @@
     <!-- Buttons -->
     <string name="calc90">Calcular 90h/60h</string>
     <string name="calc30">Calcular 30h</string>
+    <string name="irCA">Ver membros do CA</string>
+
+    <string name="tituloFalar">Assunto</string>
+    <string name="qFalar">O que manda?</string>
 
     <!-- String dos arrays-->
     <array name="primeiroPeriodo">
@@ -15,7 +19,6 @@
         <item>Matemática Fundamental</item>
         <item>Produção Textual</item>
     </array>
-
     <array name="segundoPeriodo">
         <item>2° Periodo</item>
         <item>Cálculo</item>
@@ -160,4 +163,7 @@
         <item>Tópicos Especiais em Sistemas Embarcados II</item>
         <item></item>
     </array>
+
+    <!-- Acessibilidade-->
+    <string name="acLogo">Logo do CAAT</string>
 </resources>

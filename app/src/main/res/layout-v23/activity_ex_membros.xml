@@ -10,15 +10,23 @@
         android:id="@+id/toolbar"
         layout="@layout/include_toolbar"
         />
+
     <TextView
+        android:id="@+id/tituloQuemS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/caat"
-        android:id="@+id/tituloQuemS"
-        android:layout_marginTop="16dp"
+        android:layout_below="@+id/toolbar"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/toolbar"/>
+        android:layout_marginTop="16dp"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/caat"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?android:attr/textColorHighlightInverse"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:visibility="visible" />
 
     <ExpandableListView
         android:layout_width="wrap_content"
