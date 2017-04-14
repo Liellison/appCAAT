@@ -91,44 +91,68 @@ public class GradeFragment extends Fragment {
         listDataHeader.add("Optativas");
 
         List<String> primeiroPeriodo = new ArrayList<String>();
-        primeiroPeriodo.add("0805106-1 - Direito e Ética" +
-                "\nCH:30 Aplicação: Teórica" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805106-1 - Direito e Ética\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: Fundamentos de direito cibernético; Ética e privacidade; Delitos e responsabilidades na internet; Internet e direitos autorais; Direito brasileiro e a área de TI; Ciberespaço e aspectosde territorialidade; Aspectos internacionais de crimes cometidos através do computador; Técnicas forenses; Propostas legislativas brasileiras. Direito comercial para informática. o objeto do saber ético e o direito. Moral como ojeto da ética. Direito e moral. História das idéias sobre a ética e a justiça. Ética profissional\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ND ");
 
-        primeiroPeriodo.add("0805102-1 - Filosofia das Ciências Naturais" +
-                "\nCH:60 Aplicação: Teórica" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805102-1 - Filosofia das Ciências Naturais\n" +
+                "\nCH:60   Aplicação: Teórica\n" +
+                "\nDescrição: A ciência e outras formas de conhecimento. O estatuto da ciência e da filosofia. Critérios de cientificidade. O método científico. Teorias, leis e explicação científica. A questão da objetividade científica.\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
 
-        primeiroPeriodo.add("0805105-1 - Introdução à Programação de Computadores" +
-                "\nCH:90 Aplicação: Teórica/Prática" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805105-1 - Introdução à Programação de Computadores\n" +
+                "\nCH:90   Aplicação: Teórica/Prática\n" +
+                "\nDescrição: A informação e sua representação. Arquitetura básica de computador: CPU, tipos de memórias, dispositivos de E/S e barramento. Construção de algoritmos: Tipos de dados, estrutura de controle, estrutura de dados homogêneas, classificação e pesquisa, estrutura de dados heterogêneas, sub-algoritmos e recursividade.\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
 
-        primeiroPeriodo.add("0805087-1 - Lógica Matemática Aplicada a Computação" +
-                "\nCH:60 Aplicação: Teórica" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805087-1 - Lógica Matemática Aplicada a Computação\n" +
+                "\nCH:60   Aplicação: Teórica\n" +
+                "\nDescrição: Lógica Proposicional. Lógica de Predicados. Tabela-Verdade. Implicação Lógica. Equivalência. Álgebra das Proposições. Método Dedutivo. Argumentos e Regras de Inferência. Programação Lógica. Lógicas Não-Clássicas.\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
 
-        primeiroPeriodo.add("0805104-1 - Matemática Fundamental" +
-                "\nCH:90 Aplicação: Teórica" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805104-1 - Matemática Fundamental\n" +
+                "\nCH:90   Aplicação: Teórica\n" +
+                "\nDescrição: Polinômios e fatoração. Relações e funções. Funções elementares. Trigonometria. Funções trigonométricas. Logaritmo e exponencial. Matrizes e determinantes. Sistemas de equações lineares.\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
 
-        primeiroPeriodo.add("0805103-1 - Produção Textual" +
-                "\nCH:30 Aplicação: Teórica" +
-                "\nDescrição: Descipbndfpokvnfoivnfdoivndfoi" +
-                "\nPre-Requisito: Anti-Requisito: ");
+        primeiroPeriodo.add("0805103-1 - Produção Textual\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: Leitura e produção de textos, com ênfase nos gêneros discursivos presentes bo mundo acadêmico da ciência e tecnologia. Produção de textos, artigos e trabalhos científicos.\n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
 
 
         List<String> segundoPeriodo = new ArrayList<String>();
-        segundoPeriodo.add("Cálculo");
-        segundoPeriodo.add("Circuitos Digitais");
-        segundoPeriodo.add("Estrutura de Dados");
-        segundoPeriodo.add("Geometria Analítica");
-        segundoPeriodo.add("Metodologia Para o Trabalho Científico");
-        segundoPeriodo.add("Paradigmas de Programação");
+        segundoPeriodo.add("0805111-1 - Cálculo\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
+        segundoPeriodo.add("Circuitos Digitais\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
+        segundoPeriodo.add("Estrutura de Dados\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
+        segundoPeriodo.add("Geometria Analítica\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
+        segundoPeriodo.add("Metodologia Para o Trabalho Científico\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
+        segundoPeriodo.add("Paradigmas de Programação\n" +
+                "\nCH:30   Aplicação: Teórica\n" +
+                "\nDescrição: \n" +
+                "\nPre-Requisito: ND Anti-Requisito: ");
+
 
         List<String> terceiroPeriodo = new ArrayList<String>();
         terceiroPeriodo.add("Álgebra Linear");
