@@ -12,7 +12,9 @@
     <!-- String dos arrays-->
     <array name="primeiroPeriodo">
         <item>1° Periodo</item>
-        <item>Direito e Ética</item>
+        <item>Direito e Ética\n
+            \nCH:30
+            \nDescrição: mimimimimim</item>
         <item>Filosofia das Ciências Naturais</item>
         <item>Introdução à Programação de Computadores</item>
         <item>Lógica Matemática Aplicada a Computação</item>

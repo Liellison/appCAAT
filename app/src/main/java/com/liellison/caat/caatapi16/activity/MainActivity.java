@@ -13,7 +13,7 @@ import com.liellison.caat.caatapi16.R;
 import com.liellison.caat.caatapi16.fragments.CalendarioFragment;
 import com.liellison.caat.caatapi16.fragments.DenunciaFragment;
 import com.liellison.caat.caatapi16.fragments.MediaFragment;
-import com.liellison.caat.caatapi16.fragments.NoticiasFragment;
+import com.liellison.caat.caatapi16.fragments.GradeFragment;
 import com.liellison.caat.caatapi16.fragments.QuemSFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return new NoticiasFragment();
+                    return new GradeFragment();
                 case 1:
                     return new MediaFragment();
                 case 2:

@@ -68,7 +68,9 @@ public class ExMembrosActivity extends AppCompatActivity {
         listDataHeader.add("CA em 2007 - 2008");
 
         List<String> ca2017 = new ArrayList<String>();
-        ca2017.add("Liellison Menezes - Presidente");
+        ca2017.add("Liellison Menezes - Presidente\\n\n" +
+                "            \\nCH:30\n" +
+                "            \\nDescrição: mimimimimim");
         ca2017.add("Maxsuel Marreiro - Diretor de Comunicação");
         ca2017.add("Abner Santana - Secretario");
 
