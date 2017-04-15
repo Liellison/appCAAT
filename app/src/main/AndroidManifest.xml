@@ -26,7 +26,8 @@
         </activity>
         <activity android:name=".activity.Media90" />
         <activity android:name=".activity.Media30" />
-        <activity android:name=".activity.ExMembrosActivity"></activity>
+        <activity android:name=".activity.ExMembrosActivity" />
+        <activity android:name=".activity.ProfActivity"></activity>
     </application>
 
 </manifest>

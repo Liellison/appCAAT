@@ -50,7 +50,7 @@ public class DenunciaFragment extends Fragment implements View.OnClickListener {
         final ActionBar bar = activity.getSupportActionBar();
         if (bar != null)
         {
-            bar.setTitle(activity.getString(R.string.app_name));
+            bar.setTitle(activity.getString(R.string.falar));
         }
     }
 

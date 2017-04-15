@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">CAAT App</string>
     <string name="caat">Centro Academico</string>
+    <string name="prof">Professores do Departamento</string>
     <!-- Buttons -->
     <string name="calc90">Calcular 90h/60h</string>
     <string name="calc30">Calcular 30h</string>
     <string name="irCA">Ver membros do CA</string>
-
+    <string name="irProf">Ver professores</string>
     <string name="tituloFalar">Assunto</string>
     <string name="qFalar">O que manda?</string>
 
@@ -14,7 +15,8 @@
         <item>1° Periodo</item>
         <item>Direito e Ética\n
             \nCH:30
-            \nDescrição: mimimimimim</item>
+            \nDescrição: mimimimimim
+        </item>
         <item>Filosofia das Ciências Naturais</item>
         <item>Introdução à Programação de Computadores</item>
         <item>Lógica Matemática Aplicada a Computação</item>
@@ -168,4 +170,11 @@
 
     <!-- Acessibilidade-->
     <string name="acLogo">Logo do CAAT</string>
+
+    <!-- Titulos -->
+    <string name="grade">Grade</string>
+    <string name="media">Calcular Media</string>
+    <string name="falar">Falar com o CAAT</string>
+    <string name="datas">Datas</string>
+    <string name="nos">Nos</string>
 </resources>

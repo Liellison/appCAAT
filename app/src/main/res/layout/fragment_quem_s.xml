@@ -29,5 +29,12 @@
        android:layout_alignParentStart="true"
        android:layout_marginTop="37dp"
        android:text="@string/irCA"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IrP"
+        android:layout_below="@+id/IrB"
+        android:layout_marginTop="16dp"
+        android:text="@string/irProf"/>
 
 </RelativeLayout>

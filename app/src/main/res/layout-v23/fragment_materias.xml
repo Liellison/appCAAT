@@ -18,7 +18,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular 90h"
+            android:text="@string/calc90"
             android:id="@+id/buttonMediaCalc90"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular 60h"
+            android:text="@string/calc30"
             android:id="@+id/buttonMediaCalc60"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -42,69 +42,6 @@
             android:typeface="serif"
             android:textAlignment="center"/>
 
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinnerPrimeiroP"
-            android:entries="@array/primeiroPeriodo"
-            android:layout_below="@+id/buttonMediaCalc60"
-            android:layout_marginTop="26dp"
-            android:spinnerMode="dialog" />
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinnerPrimeiroP"
-            android:entries="@array/segundoPeriodo"
-            android:id="@+id/spinner2P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner2P"
-            android:entries="@array/terceiroPeriodo"
-            android:id="@+id/spinner3P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner3P"
-            android:entries="@array/quartoPeriodo"
-            android:id="@+id/spinner4P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner4P"
-            android:entries="@array/quintoPeriodo"
-            android:id="@+id/spinner5P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner5P"
-            android:entries="@array/sextoPeriodo"
-            android:id="@+id/spinner6P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner6P"
-            android:entries="@array/setimoPeriodo"
-            android:id="@+id/spinner7P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner7P"
-            android:entries="@array/oitavoPeriodo"
-            android:id="@+id/spinner8P"
-            android:spinnerMode="dialog"/>
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner8P"
-            android:entries="@array/optativasPeriodo"
-            android:id="@+id/spinnerOpP"
-            android:spinnerMode="dialog"/>
+
     </RelativeLayout>
 </ScrollView>

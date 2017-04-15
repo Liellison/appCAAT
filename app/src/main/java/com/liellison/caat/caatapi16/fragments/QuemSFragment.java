@@ -10,18 +10,27 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.liellison.caat.caatapi16.activity.ProfActivity;
 import com.liellison.caat.caatapi16.activity.ExMembrosActivity;
 import com.liellison.caat.caatapi16.R;
 
 
 public class QuemSFragment extends Fragment implements View.OnClickListener{
-    Button IrB;
+    Button IrB, IrP;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_quem_s, container, false);
         IrB = (Button) view.findViewById(R.id.IrB);
         IrB.setOnClickListener(this);
+        IrP = (Button) view.findViewById(R.id.IrP);
+        IrP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(), ProfActivity.class);
+                startActivity(i);
+            }
+        });
         setupToolbar(view);
         return view;
     }
@@ -36,7 +45,7 @@ public class QuemSFragment extends Fragment implements View.OnClickListener{
         final ActionBar bar = activity.getSupportActionBar();
         if (bar != null)
         {
-            bar.setTitle(activity.getString(R.string.app_name));
+            bar.setTitle(activity.getString(R.string.nos));
         }
     }
 
