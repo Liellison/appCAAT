@@ -20,12 +20,13 @@ public class MainActivity extends AppCompatActivity {
     private TabLayout tableLayout;
     private ViewPager viewPager;
 
-    /*private final int[] tabIcons = {
-            R.drawable.ic_action_home,
-            R.drawable.ic_today_black_48dp,
-            R.drawable.ic_group_black_48dp,
-            R.drawable.ic_contact_mail_black_48dp
-    };*/
+    private final int[] tabIcons = {
+            R.drawable.icongrade,
+            R.drawable.iconcalc,
+            R.drawable.icontalk,
+            R.drawable.iconcalendar,
+            R.drawable.iconwe
+    };
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         tableLayout = (TabLayout) findViewById(R.id.tabLayout);
         tableLayout.setupWithViewPager(viewPager);
-       // setupTabIcons();
-        setupTabString();
+        setupTabIcons();
+        //setupTabString();
         tableLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -57,12 +58,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    /*private void setupTabIcons() {
+    private void setupTabIcons() {
         tableLayout.getTabAt(0).setIcon(tabIcons[0]);
         tableLayout.getTabAt(1).setIcon(tabIcons[1]);
         tableLayout.getTabAt(2).setIcon(tabIcons[2]);
         tableLayout.getTabAt(3).setIcon(tabIcons[3]);
-    }*/
+        tableLayout.getTabAt(4).setIcon(tabIcons[4]);
+    }
     private void setupTabString(){
         tableLayout.getTabAt(0).setText("Noticias");
         tableLayout.getTabAt(1).setText("Materias");

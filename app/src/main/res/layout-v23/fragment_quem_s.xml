@@ -17,7 +17,7 @@
         android:layout_height="190dp"
         android:layout_below="@+id/toolbar"
         android:layout_marginTop="16dp"
-        app:srcCompat="@drawable/logocaat"
+        app:srcCompat="@drawable/caat"
         android:contentDescription="@string/acLogo" />
 
    <Button
@@ -41,6 +41,11 @@
         android:id="@+id/IrP"
         android:layout_below="@+id/IrB"
         android:layout_marginTop="16dp"
-        android:text="@string/irProf"/>
+        android:text="@string/irProf"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif"
+        android:typeface="serif"
+        android:textAlignment="center"/>
 
 </RelativeLayout>
