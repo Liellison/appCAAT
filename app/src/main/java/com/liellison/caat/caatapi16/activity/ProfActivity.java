@@ -59,33 +59,31 @@ public class ProfActivity extends AppCompatActivity {
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<String, List<String>>();
 
-        listDataHeader.add("Pso");
         listDataHeader.add("Doutorado");
-        listDataHeader.add("Mestres");
+        listDataHeader.add("Mestrado");
 
-        List<String> posDoc = new ArrayList<String>();
-        posDoc.add("Liellison Menezes - Presidente\\n\n" +
-                "            \\nCH:30\n" +
-                "            \\nDescrição: mimimimimim");
-        posDoc.add("Maxsuel Marreiro - Diretor de Comunicação");
-        posDoc.add("Abner Santana - Secretario");
 
         List<String> doutores = new ArrayList<String>();
-        doutores.add("Liellison Menezes - Presidente");
-        doutores.add("Girlene Faria - Vice-Presidente");
-        doutores.add("Allyson Thales - Secretario");
-        doutores.add("Claudia Medeiros - Tesoureira");
-        doutores.add("Maxsuel Marreiro - Diretor de Comunicação");
+        doutores.add("Adriana Takahashi ");
+        doutores.add("Alberto Signoretti");
+        doutores.add("Anderson Abner de Santana Souza");
+        doutores.add("Carlos Andre Guerra Fonseca");
+        doutores.add("Felipe Denis Mendonça de Oliveira");
+        doutores.add("Francisco Dantas de Medeiros Neto");
+        doutores.add("Isaac de Lima Oliveira Filho");
+        doutores.add("Karla Darlene Nepomuceno Ramos");
+        doutores.add("Rosiery da Silva Maia");
+        doutores.add("Wilfredo Blanco Figuerola");
 
         List<String> mestrandos = new ArrayList<String>();
-        mestrandos.add("Robson Oliver Lime  - Presidente");
-        mestrandos.add("Girlene Faria - Vice-Presidente");
-        mestrandos.add("Allyson Thales - 1° Secretario");
+        mestrandos.add("André Gustavo Pereira da Silva");
+        mestrandos.add("Bartira Paraguaçu Falcão Dantas Rocha");
+        mestrandos.add("Bruno Cruz de Oliveira");
+        mestrandos.add("Camila de Araújo Sena");
+        mestrandos.add("Glaucia Melissa Medeiros Campos");
+        mestrandos.add("Raul Benites Paradeda");
 
-
-
-        listDataChild.put(listDataHeader.get(0), posDoc);
-        listDataChild.put(listDataHeader.get(1), doutores);
-        listDataChild.put(listDataHeader.get(2), mestrandos);
+        listDataChild.put(listDataHeader.get(0), doutores);
+        listDataChild.put(listDataHeader.get(1), mestrandos);
     }
 }

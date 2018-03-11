@@ -61,13 +61,13 @@ public class DenunciaFragment extends Fragment implements View.OnClickListener {
         final String email = "caatnataldenuncia@gmail.com";
         String endereçoDeEmail[] = { email };
 
-        String mensagem = "TÍTULO: " + tituloDoEvento + "\nASSUNTO: " + assuntoDoEvento;
+        String mensagem = assuntoDoEvento;
 
         Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
         emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL,
                 endereçoDeEmail);
         emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
-                "blin blon ! Novo Evento");
+                tituloDoEvento );
         emailIntent.setType("plain/text");
         emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, mensagem);
         startActivity(emailIntent);

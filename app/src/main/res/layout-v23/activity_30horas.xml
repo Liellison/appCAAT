@@ -12,32 +12,38 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:inputType="numberDecimal"
-        android:id="@+id/nota1"
-        android:hint="Primeira nota"/>
+        android:id="@+id/nota130"
+        android:hint="Informe a Primeira nota"
+        android:fontFamily="sans-serif"
+        style="@android:style/Widget.Material.EditText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="16dp"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/nota2"
-        android:hint="Segunda nota"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:inputType="numberDecimal"
-        android:id="@+id/nota3"
-        android:hint="Terceira nota"/>
+        android:id="@+id/nota230"
+        android:hint="Informe a Segunda nota"
+        android:fontFamily="sans-serif"
+        style="@android:style/Widget.Material.EditText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="16dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btCalc30"
         android:text="Calcular"
-        android:id="@+id/btCalc90"/>
+        android:fontFamily="sans-serif"
+        style="@android:style/Widget.Material.Button.Colored"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" "
-        android:layout_gravity="center"
-        android:id="@+id/text90"/>
+        android:id="@+id/text30"/>
 
 </LinearLayout>

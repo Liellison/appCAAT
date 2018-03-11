@@ -8,14 +8,16 @@
         layout="@layout/include_toolbar"
         />
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:inputType="numberDecimal"
         android:id="@+id/nota130"
         android:hint="Informe a Primeira nota" />
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:inputType="numberDecimal"
         android:id="@+id/nota230"
         android:hint="Informe a Segunda nota" />
@@ -27,7 +29,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Estou aqui"
+        android:text=" "
         android:id="@+id/text30"/>
 
 </LinearLayout>
