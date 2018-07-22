@@ -177,4 +177,12 @@
     <string name="falar">Falar com o CAAT</string>
     <string name="datas">Datas</string>
     <string name="nos">Nos</string>
+
+    <!-- Titulos -->
+    <string name="compose_shortcut_short_label1">Calcular</string>
+    <string name="compose_shortcut_long_label1">Calcular Media 90</string>
+    <string name="compose_disabled_message1">Erro</string>
+    <string name="compose_shortcut_short_label2">Calcular</string>
+    <string name="compose_shortcut_long_label2">Calcular Media 30</string>
+    <string name="compose_disabled_message2">Erro</string>
 </resources>
