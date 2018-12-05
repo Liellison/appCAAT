@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.liellison.caat.caatapi16"
         minSdkVersion 18
         targetSdkVersion 27
         versionCode 1
-        versionName "0.0.2.1"
+        versionName "0.0.2.2"
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }
     buildTypes {

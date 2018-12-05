@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import com.liellison.caat.caatapi16.R;
 
+import java.text.DecimalFormat;
+
 /**
  * Created by liellison on 16/01/17.
  */
@@ -17,7 +19,8 @@ public class Media30 extends AppCompatActivity implements View.OnClickListener{
     EditText nota130, nota230;
     Button btCalc30;
     TextView text30;
-    double n1, n2, resultado;
+    double n1, n2, resultado, resultadoP4;
+    DecimalFormat formato = new DecimalFormat("#.##");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,15 +42,23 @@ public class Media30 extends AppCompatActivity implements View.OnClickListener{
             n1 = Double.parseDouble(nota130.getText().toString());
             n2 = Double.parseDouble(nota230.getText().toString());
             resultado = ((n1 * 4) + (n2 * 5)) / 9;
-            if (resultado < 7){
-                text30.setText("Voce reprovou,tua nota foi "+String.valueOf(resultado));
-            }else {
-                text30.setText("Tua nota foi "+String.valueOf(resultado));
+            if(resultado < 10){
+                resultadoP4 = (resultado - 12) * (-1);
+            }else{
+                resultadoP4 = resultado - 12;
+            }
+
+            if (resultado <= 4){
+                text30.setText("Você reprovou,tua média foi "+String.valueOf(formato.format(resultado)));
+            }if (resultado >= 4 && resultado < 7) {
+                text30.setText("Você esta na 4° prova, precisa tirar "+String.valueOf(formato.format(resultadoP4)));
+            }if (resultado >= 7){
+                text30.setText("Você foi aprovado com nota "+String.valueOf(formato.format(resultado)));
             }
         }else {
             n1 = Double.parseDouble(nota130.getText().toString());
             resultado = ((n1 * 4)-63) / -5;
-            text30.setText("Voce precisa tirar "+String.valueOf(resultado)+" na segunda prova para passar");
+            text30.setText("Voce precisa tirar "+String.valueOf(formato.format(resultado))+" na segunda prova para passar");
         }
     }
 

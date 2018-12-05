@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import com.liellison.caat.caatapi16.R;
 
+import java.text.DecimalFormat;
+
 /**
  * Created by liellison on 16/01/17.
  */
@@ -17,7 +19,8 @@ public class Media90 extends AppCompatActivity implements View.OnClickListener{
     EditText nota1, nota2, nota3;
     Button btCalc90;
     TextView text90;
-    double n1, n2, n3, resultado;
+    double n1, n2, n3, resultado, resultadoP4;
+    DecimalFormat formato = new DecimalFormat("#.##");
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -56,16 +59,30 @@ public class Media90 extends AppCompatActivity implements View.OnClickListener{
             n1 = Double.parseDouble(nota1.getText().toString());
             n2 = Double.parseDouble(nota2.getText().toString());
             resultado = (((n1 * 4) + (n2 * 5))-105)/-6;
-            text90.setText("Voce precisa tirar " + String.valueOf(resultado)+" na 3° prova");
+            if(resultado <= 10){
+                text90.setText("Você precisa tirar " + String.valueOf(formato.format(resultado))+" na 3° prova");
+            }else{
+                text90.setText("Você esta na 4º");
+            }
+
         } else {
             n1 = Double.parseDouble(nota1.getText().toString());
             n2 = Double.parseDouble(nota2.getText().toString());
             n3 = Double.parseDouble(nota3.getText().toString());
             resultado = ((n1 * 4) + (n2 * 5) + (n3 * 6)) / 15;
-            if (resultado < 7){
-            text90.setText("Voce reprovou,tua nota foi "+String.valueOf(resultado));
-            }else {
-                text90.setText("Tua nota foi "+String.valueOf(resultado));
+
+            if(resultado < 10){
+                resultadoP4 = (resultado - 12) * (-1);
+            }else{
+                resultadoP4 = resultado - 12;
+            }
+
+            if (resultado <= 4){
+            text90.setText("Você reprovou,tua média foi "+String.valueOf(formato.format(resultado)));
+            }if (resultado >= 4 && resultado < 7) {
+                text90.setText("Você esta na 4° prova, precisa tirar "+String.valueOf(formato.format(resultadoP4)));
+            }if (resultado >= 7){
+                text90.setText("Você foi aprovado com nota "+String.valueOf(formato.format(resultado)));
             }
         }
 
